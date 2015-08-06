@@ -1,0 +1,87 @@
+
+
+body {
+    background: url('/assets/img/drink-local-kc.jpg') no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+hr {
+    color: $secondary-color-light;
+    border-color: $secondary-color-light;
+    background-color: $secondary-color-light
+;    opacity: 0.3;
+}
+
+.logo {
+    font-size: 5em;
+    color: $white-color;
+    font-weight: 100;
+    margin-bottom: 25px;
+    letter-spacing: -4px;
+}
+
+.lead {
+    font-size: 1.2em;
+    color: $primary-color;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.notified {
+    color: $white-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    background: rgba(182,214,242, 0.2);
+}
+
+.text-email {
+  border-radius: 24px;
+}
+
+.alert-danger {
+  background: rgba(242,182,182,0.75);
+}
+
+.social-links {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.social-links li {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.social-links li a {
+  color: $secondary-color-light; }
+
+.facebook-link:hover {
+  color: #3b5998; }
+
+.instagram-link:hover {
+  color: #517fa4; }
+
+.twitter-link:hover {
+  color: #00aced; }
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}

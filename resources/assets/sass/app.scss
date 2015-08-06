@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+$btn-info-bg: #5990D9;
+$state-danger-bg: #f2b6b6;
+
+$primary-color: #2F3159;
+$primary-color-light: #5357A6;
+$secondary-color: #5990D9;
+$secondary-color-light: #B6D6F2;
+$white-color: #F2F2F2;
+$dark-grey: #2d2d2d;
+
+$navbar-inverse-bg: $dark-grey;
+$navbar-inverse-link-active-bg: $dark-grey;
+$navbar-inverse-link-hover-color: $secondary-color;
+$navbar-inverse-link-active-color: #ffffff;
+
+@import "bootstrap/bootstrap";
+@import "fontawesome/font-awesome";
+
+@import "partials/comingsoon";
+@import "partials/login";
+

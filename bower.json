@@ -1,0 +1,15 @@
+{
+  "name": "Drink Local KC",
+  "description": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "~3.3.5"
+  }
+}
